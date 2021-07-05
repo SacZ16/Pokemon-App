@@ -1,0 +1,6 @@
+export const SET_POKES = "SET_POKES";
+export const SET_DETAIL = "SET_DETAIL";
+export const BUSCARPOKE = "BUSCARPOKE";
+export const BUSCARVACIO = "BUSCARVACIO";
+export const FILTRARPOKE = "FILTRARPOKE";
+export const BUSCARPOKEEXACT = "BUSCARPOKEEXACT";

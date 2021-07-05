@@ -1,0 +1,1191 @@
+.link{
+    text-decoration: none;
+}
+.cajaimagenNORMAL{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( rgb(221, 221, 248), rgb(246, 246, 250));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 1;
+    bottom:125px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagen2NORMAL{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( rgb(141, 141, 172), rgb(81, 81, 93));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 0;
+    bottom:555px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagenFIGHTING{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( Firebrick, rgb(184, 49, 49));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 1;
+    bottom:125px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagen2FIGHTING{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( rgb(100, 17, 17), rgb(184, 49, 49));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 0;
+    bottom:555px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagenCREADO{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( rgb(13, 1, 51), rgb(10, 0, 0));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 1;
+    bottom:  125px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagen2CREADO{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( rgb(50, 48, 59), rgb(0, 0, 0));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 0;
+    bottom: 555px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagenFLYING{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( #5df2ff, #dafcff);
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 1;
+    bottom:125px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagen2FLYING{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( #5df2ff, #dafcff);
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 0;
+    bottom:555px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagenPOISON{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient(  Mediumpurple,  rgb(169, 155, 197));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 1;
+    bottom:125px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagen2POISON{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient(  rgb(52, 40, 77),  rgb(169, 155, 197));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 0;
+    bottom:555px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagenGROUND{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( BurlyWood, rgb(216, 167, 103));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 1;
+    bottom:125px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagen2GROUND{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( rgb(100, 83, 60),rgb(93, 73, 47));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 0;
+    bottom:555px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagenROCK{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( Peru, rgb(163, 106, 50));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 1;
+    bottom:125px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagen2ROCK{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( rgb(124, 80, 38), rgb(80, 52, 25));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 0;
+    bottom:555px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagenBUG{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( YellowGreen, rgb(113, 153, 34));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 1;
+    bottom:125px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagen2BUG{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( rgb(104, 139, 33), rgb(70, 95, 20));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 0;
+    bottom:555px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagenGHOST{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( Purple, rgb(44, 3, 44));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 1;
+    bottom:125px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagen2GHOST{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( rgb(83, rgb(29, 2, 29), 3, 44));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 0;
+    bottom:555px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagenFIRE{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( Crimson, rgb(251, 5, 54));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 1;
+    bottom:125px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagen2FIRE{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( rgb(110, 10, 30), rgb(104, 2, 22));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 0;
+    bottom:555px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagenWATER{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( RoyalBlue, rgb(24, 68, 199));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 1;
+    bottom:125px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagen2WATER{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( rgb(31, 52, 116), rgb(12, 36, 107));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 0;
+    bottom:555px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagenSTEEL{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( LightGrey, rgb(144, 144, 144));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 1;
+    bottom:125px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagen2STEEL{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( rgb(117, 117, 117), rgb(144, 144, 144));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 0;
+    bottom:555px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagenGRASS{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( Lime, rgb(2, 131, 2));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 1;
+    bottom:125px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagen2GRASS{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( rgb(1, 77, 1), rgb(0, 51, 0));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 0;
+    bottom:555px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagenELECTRIC{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( Yellow, rgb(173, 173, 1));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 1;
+    bottom:125px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagen2ELECTRIC{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( rgb(119, 119, 1), rgb(77, 77, 0));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 0;
+    bottom:555px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagenPSYCHIC{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( Violet, rgb(119, 62, 119));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 1;
+    bottom:125px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagen2PSYCHIC{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( rgb(110, 59, 110), rgb(63, 33, 63));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 0;
+    bottom:555px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagenICE{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( AquaMarine, rgb(75, 170, 138));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 1;
+    bottom:125px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagen2ICE{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( rgb(58, 117,rgb(29, 66, 54), 138));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 0;
+    bottom:555px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagenDRAGON{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( MediumSlateBlue, rgb(90, 75, 175));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 1;
+    bottom:125px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagen2DRAGON{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( rgb(54, 45, 104),rgb(34, 29, 68));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 0;
+    bottom:555px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagenFAIRY{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( rgb(255, 136, 238), rgb(177, 83, 163));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 1;
+    bottom:125px;
+    justify-content: center;
+    z-index: 2;     
+    transition: all 0.3s ease-out;
+    margin-left: 5%;
+}
+.cajaimagen2FAIRY{
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 430px;
+    min-height: 430px;
+    position: absolute;
+    background: radial-gradient( rgb(102, 53, 95), rgrgb(87, 40, 80));
+    border-radius: 2%;
+    display:flex;
+    position: relative;
+    opacity: 0;
+    bottom:555px;
+    justify-content: center;
+    z-index: 2; 
+}
+.link:hover .cajaimagen2NORMAL{opacity: 1;}
+.link:hover .cajaimagen2FIGHTING{opacity: 1;}
+.link:hover .cajaimagen2FLYING{opacity: 1;} 
+.link:hover .cajaimagen2POISON {opacity: 1;}
+.link:hover .cajaimagen2GROUND {opacity: 1;}
+.link:hover .cajaimagen2ROCK {opacity: 1;}
+.link:hover .cajaimagen2BUG {opacity: 1;}
+.link:hover .cajaimagen2GHOST {opacity: 1;}
+.link:hover .cajaimagen2FIRE {opacity: 1;}
+.link:hover .cajaimagen2WATER {opacity: 1;}
+.link:hover .cajaimagen2STEEL {opacity: 1;}
+.link:hover .cajaimagen2GRASS {opacity: 1;}
+.link:hover .cajaimagen2ELECTRIC {opacity: 1;}
+.link:hover .cajaimagen2PSYCHIC {opacity: 1;}
+.link:hover .cajaimagen2ICE {opacity: 1;}
+.link:hover .cajaimagen2DRAGON {opacity: 1;}
+.link:hover .cajaimagen2FAIRY {    opacity: 1;}
+.link:hover .cajaimagen2CREADO {    opacity: 1;}
+
+.cajacontenedora{
+    position: relative;
+    margin-left: 10%;
+width: 80%;
+height: 100%;
+top: 10px;
+background-color: rgba(255, 140, 0, 0);
+}
+.cajaname{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 31px;
+    margin-left: 10%;
+    width: 80%;
+    height: 100px;
+    clip-path: polygon(20% 60%, 80% 60%, 100% 100%, 0% 100%);
+    background-color: rgb(106, 96, 248);
+}
+.cajanametexto{
+    position: relative;
+    top: 13px;
+    font-size: 46px;
+    z-index: 12;
+}
+.cajafondo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 130px;
+    background-color: rgb(207, 3, 3);
+    border-radius: 1%;
+}
+.cajaname2{
+    position: absolute;
+    margin-left: 5%;
+    width: 90%;
+    height: 120px;
+    margin-top:10px;
+    clip-path: polygon(20% 60%, 80% 60%, 100% 100%, 0% 100%);
+    background-color: rgb(253, 0, 0);
+}
+.cajastats{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    top: 200px;
+    left: 50%;
+    z-index: 12;
+    width: 50%;
+    background-color: rgba(238, 235, 235, 0.287);
+}
+.cajaid{
+    position: absolute;
+    margin-top: 150px;
+    border-radius: 0.4rem;
+    background-color: rgb(106, 96, 248);
+    margin-left: 50%;
+}
+.cajastats2{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    top: 300px;
+    left: 50%;
+    z-index: 12;
+    width: 50%;
+    background-color: rgba(238, 235, 235, 0.287);
+}
+@media(max-width: 1255px) {
+    
+    .cajastats{
+        top: 660px;
+        left: 25%;
+    }
+    .cajastats2{
+        top: 740px;
+        left: 25%;
+    }
+    .cajaimagen2NORMAL{left: 20%;bottom: 480px;}
+.cajaimagen2FIGHTING{left: 20%;bottom: 480px;}
+.cajaimagen2FLYING{left: 20%;bottom: 480px;} 
+.cajaimagen2POISON {left: 20%;bottom: 480px;}
+.cajaimagen2GROUND {left: 20%;bottom: 480px;}
+.cajaimagen2ROCK {left: 20%;bottom: 480px;}
+.cajaimagen2BUG {left: 20%;bottom: 480px;}
+.cajaimagen2GHOST {left: 20%;bottom: 480px;}
+.cajaimagen2FIRE {left: 20%;bottom: 480px;}
+.cajaimagen2WATER {left: 20%;bottom: 480px;}
+.cajaimagen2STEEL {left: 20%;bottom: 480px;}
+.cajaimagen2GRASS {left: 20%;bottom: 480px;}
+.cajaimagen2ELECTRIC {left: 20%;bottom: 480px;}
+.cajaimagen2PSYCHIC {left: 20%;bottom: 480px;}
+.cajaimagen2ICE {left: 20%;bottom: 480px;}
+.cajaimagen2DRAGON {left: 20%;bottom: 480px;}
+.cajaimagen2FAIRY {    left: 20%;bottom: 480px;}
+.cajaimagen2CREADO {    left: 20%;bottom: 480px;}
+.cajaimagenNORMAL{left: 20%;bottom: 50px;}
+.cajaimagenFIGHTING{left: 20%;bottom: 50px;}
+.cajaimagenFLYING{left: 20%;bottom: 50px;} 
+.cajaimagenPOISON {left: 20%;bottom: 50px;}
+.cajaimagenGROUND {left: 20%;bottom: 50px;}
+.cajaimagenROCK {left: 20%;bottom: 50px;}
+.cajaimagenBUG {left: 20%;bottom: 50px;}
+.cajaimagenGHOST {left: 20%;bottom: 50px;}
+.cajaimagenFIRE {left: 20%;bottom: 50px;}
+.cajaimagenWATER {left: 20%;bottom: 50px;}
+.cajaimagenSTEEL {left: 20%;bottom: 50px;}
+.cajaimagenGRASS {left: 20%;bottom: 50px;}
+.cajaimagenELECTRIC {left: 20%;bottom: 50px;}
+.cajaimagenPSYCHIC {left: 20%;bottom: 50px;}
+.cajaimagenICE {left: 20%;bottom: 50px;}
+.cajaimagenDRAGON {left: 20%;bottom: 50px;}
+.cajaimagenFAIRY {    left: 20%;bottom: 50px;}
+.cajaimagenCREADO {    left: 20%;bottom: 50px;}
+}
+@media(max-width: 773px) {
+    
+    .cajastats{
+        top: 660px;
+        left: 25%;
+    }
+    .cajastats2{
+        top: 740px;
+        left: 25%;
+    }
+    .cajaimagen2NORMAL{left: 0;bottom: 615px;}
+.cajaimagen2FIGHTING{left: 0;bottom: 615px;}
+.cajaimagen2FLYING{left: 0;bottom: 615px;} 
+.cajaimagen2POISON {left: 0;bottom: 615px;}
+.cajaimagen2GROUND {left: 0;bottom: 615px;}
+.cajaimagen2ROCK {left: 0;bottom: 615px;}
+.cajaimagen2BUG {left: 0;bottom: 615px;}
+.cajaimagen2GHOST {left: 0;bottom: 615px;}
+.cajaimagen2FIRE {left: 0;bottom: 615px;}
+.cajaimagen2WATER {left: 0;bottom: 615px;}
+.cajaimagen2STEEL {left: 0;bottom: 615px;}
+.cajaimagen2GRASS {left: 0;bottom: 615px;}
+.cajaimagen2ELECTRIC {left: 0;bottom: 615px;}
+.cajaimagen2PSYCHIC {left: 0;bottom: 615px;}
+.cajaimagen2ICE {left: 0;bottom: 615px;}
+.cajaimagen2DRAGON {left: 0;bottom: 615px;}
+.cajaimagen2FAIRY {    left: 0;bottom: 615px;}
+.cajaimagen2CREADO {    left: 0;bottom: 615px;}
+.cajaimagenNORMAL{left: 0;bottom: 185px;}
+.cajaimagenFIGHTING{left: 0;bottom: 185px;}
+.cajaimagenFLYING{left: 0;bottom: 185px;} 
+.cajaimagenPOISON {left: 0;bottom: 185px;}
+.cajaimagenGROUND {left: 0;bottom: 185px;}
+.cajaimagenROCK {left: 0;bottom: 185px;}
+.cajaimagenBUG {left: 0;bottom: 185px;}
+.cajaimagenGHOST {left: 0;bottom: 185px;}
+.cajaimagenFIRE {left: 0;bottom: 185px;}
+.cajaimagenWATER {left: 0;bottom: 185px;}
+.cajaimagenSTEEL {left: 0;bottom: 185px;}
+.cajaimagenGRASS {left: 0;bottom: 185px;}
+.cajaimagenELECTRIC {left: 0;bottom: 185px;}
+.cajaimagenPSYCHIC {left: 0;bottom: 185px;}
+.cajaimagenICE {left: 0;bottom: 185px;}
+.cajaimagenDRAGON {left: 0;bottom: 185px;}
+.cajaimagenFAIRY {    left: 0;bottom: 185px;}
+.cajaimagenCREADO {    left: 0;bottom: 185px;}
+}
+@media(max-width: 589px) {
+    
+    .cajastats{
+        top: 500px;
+        left: 25%;
+    }
+    .cajastats2{
+        top: 570px;
+        left: 25%;
+    }
+    .cajaimagen2NORMAL{
+   bottom:519px;     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2FIGHTING{bottom:519px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2FLYING{bottom:519px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;} 
+.cajaimagen2POISON {bottom:519px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2GROUND {bottom:519px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2ROCK {bottom:519px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2BUG {bottom:519px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2GHOST {bottom:519px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2FIRE {bottom:519px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2WATER {bottom:519px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2STEEL {bottom:519px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2GRASS {bottom:519px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2ELECTRIC {bottom:519px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2PSYCHIC {bottom:519px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2ICE {bottom:519px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2DRAGON {bottom:519px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2FAIRY {    bottom:519px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2CREADO {    bottom:519px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenNORMAL{top:-289px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenFIGHTING{top:-289px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenFLYING{top:-289px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;} 
+.cajaimagenPOISON {top:-289px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenGROUND {top:-289px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenROCK {top:-289px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenBUG {top:-289px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenGHOST {top:-289px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenFIRE {top:-289px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenWATER {top:-289px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenSTEEL {top:-289px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenGRASS {top:-289px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenELECTRIC {top:-289px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenPSYCHIC {top:-289px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenICE {top:-289px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenDRAGON {top:-289px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenFAIRY {    top:-289px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenCREADO {    top:-289px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+    .cajanametexto{
+        font-size: 30px;
+    }
+}
+.carta_bar2{
+    position: absolute;
+}
+@media(max-width: 375px) {
+    .cajaid{
+        left: -60px;
+    }
+    .cajastats{
+        top: 530px;
+        left: 25%;
+    }
+    .cajastats2{
+        top: 570px;
+        left: 25%;
+    }
+    .cajaimagen2NORMAL{
+   bottom:320px;     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2FIGHTING{bottom:320px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2FLYING{bottom:320px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;} 
+.cajaimagen2POISON {bottom:320px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2GROUND {bottom:320px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2ROCK {bottom:320px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2BUG {bottom:320px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2GHOST {bottom:320px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2FIRE {bottom:320px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2WATER {bottom:320px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2STEEL {bottom:320px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2GRASS {bottom:550px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2ELECTRIC {bottom:320px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2PSYCHIC {bottom:320px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2ICE {bottom:320px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2DRAGON {bottom:320px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2FAIRY {    bottom:320px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagen2CREADO {    bottom:320px;
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenNORMAL{top:-389px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenFIGHTING{top:-389px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenFLYING{top:-389px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;} 
+.cajaimagenPOISON {top:-389px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenGROUND {top:-389px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenROCK {top:-389px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenBUG {top:-389px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenGHOST {top:-389px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenFIRE {top:-389px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenWATER {top:-389px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenSTEEL {top:-389px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenGRASS {top:-319px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenELECTRIC {top:-389px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenPSYCHIC {top:-389px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenICE {top:-389px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenDRAGON {top:-389px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenFAIRY {    top:-389px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+.cajaimagenCREADO {    top:-389px;
+     max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px;}
+    .cajanametexto{
+        font-size: 30px;
+    }
+}

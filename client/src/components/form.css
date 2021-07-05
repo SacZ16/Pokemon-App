@@ -1,0 +1,76 @@
+.cajamayorform{
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin-top:60px;
+    margin-left: 10%;
+    width: 80%;
+    height: 600px;
+    background-color: rgba(255, 44, 44, 0.781);
+    box-shadow: 0px 1px 10px 11px rgb(255, 44, 44, 0.781);
+} 
+.cajanombrei{
+    margin-top: 70px;
+    border: 1px solid blue;
+      padding: 10px;
+      background-color: white;
+      text-align: center;
+}
+.cajahpf{
+    margin-left: 40px;
+}
+.cajahpi{
+    
+      border: 1px solid blue;
+      padding: 10px;
+      background-color: white;
+      text-align: center;
+}
+.cajaattackf{
+    margin-left: 0.1px;
+}
+.cajaspeedf{
+    margin-left: 1px;
+}
+.cajaweightf{
+margin-left: 9.9px;
+}
+.cajahpattack{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.button {
+    width: 100px;
+    height: 40px;
+    font-size: 150%;
+    background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: 2px solid #4CAF50;
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #4CAF50; 
+    color: white;
+  }
+  .carta_bar3{
+      position: relative;
+      bottom:  28px;
+  }
+@media(max-width: 566px) {
+    .cajahpi{
+        width: 10vw;
+    }
+}
+select {
+    color: cornsilk;
+    background: rgba(5, 5, 5, 0.507);
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 200px;
+ }
+ .a{
+     color: rgba(0, 255, 255, 0);
+ }

@@ -1,0 +1,58 @@
+.cajalogo{
+    position: absolute;
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+}
+.liink{
+    color: white;
+    text-decoration: none;
+}
+.nav3liLink{
+    background-color: teal;
+    width: 90px;
+    color: white;
+    text-decoration: none;
+    padding: 3px 15px ;
+    display: block;
+    z-index: 10;
+}
+.nav3>li{
+    float: left;
+    z-index: 10;
+}
+.nav3 li button:hover{
+    background-color: violet;
+    z-index: 10;
+}
+.navliaa{
+    background-image: url("./LOGO.jpg");
+    background-size: cover;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+    width: 8rem;
+    color: rgba(255, 255, 255, 0);
+    height: 6rem;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    margin-left: 0%;
+    top: -63px;
+}
+.nav3 li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    z-index: 10;
+}
+.nav3{
+    position:absolute;
+    margin-top: 39px;
+    right: 120px;
+    z-index: 13;
+}
+.nav3 li:hover > ul{
+    display: block;    
+    z-index: 10;
+}

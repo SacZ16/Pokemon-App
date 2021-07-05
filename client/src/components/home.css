@@ -1,0 +1,240 @@
+.contenedormayor{    
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        top: 0;
+        right: 0; 
+            position: relative;  
+           background-size: cover;
+            -webkit-background-size:cover;
+            -moz-background-size:cover;
+            -o-background-size:cover;
+}
+.buscador{
+    position: relative;
+    
+}
+  
+.cajacarta{
+    background-color: rgba(173, 0, 0, 0.5);
+    width: 95%;
+    position: relative; 
+    display: flex;
+    height: 100%;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 80px;
+    margin-left: 2.5%;
+}
+.carta{
+    position:relative;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 80px;
+}
+.cards-container{
+    height: 100%;
+    width: 100%;
+    margin-top: 12px;
+}
+.carta_bar{
+position: relative;
+}
+.cajacarta::-webkit-scrollbar,
+.cajacarta::-webkit-scrollbar {
+    width: 12px;
+}
+.cajacarta::-webkit-scrollbar-scroll,
+  .cajacarta::-webkit-scrollbar-scroll {
+    width: 192px;
+}
+.cajacarta::-webkit-scrollbar-track,
+.cajacarta::-webkit-scrollbar-track {
+  background:rgba(173, 0, 0, 0);
+  border-radius: 0px 10px 10px 0px;
+}
+.cajacarta::-webkit-scrollbar-track:hover,
+.cajacarta::-webkit-scrollbar-track:active,
+.cajacarta::-webkit-scrollbar-track:hover,
+.cajacarta::-webkit-scrollbar-track:active {
+  background: #0b242332;
+}
+
+.cajacarta::-webkit-scrollbar-thumb,
+.cajacarta::-webkit-scrollbar-thumb {
+  background: #fd0404;
+  border-radius: 0px 10px 10px 0px;
+}
+.cajacarta::-webkit-scrollbar-thumb:active,
+.cajacarta::-webkit-scrollbar-thumb:active {
+  background-color: #ff0000;
+}
+.cajacarta::-webkit-scrollbar-thumb:hover,
+.cajacarta::-webkit-scrollbar-thumb:hover {
+  background: #ff0000;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+ul,ol{
+    list-style: none;
+    z-index: 12;
+}
+.nav li button{
+    background-color: teal;
+    width: 90px;
+    color: white;
+    text-decoration: none;
+    padding: 3px 15px ;
+    display: block;
+    z-index: 12;
+}
+.nav>li{
+    float: left;
+    z-index: 12;
+}
+.nav li button:hover{
+    background-color: violet;
+    z-index: 12;
+}
+.navlia{
+    background-color: rgb(49, 2, 255);
+    padding: 10px 15px;
+    color:white;
+    z-index: 12;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    z-index: 12;
+}
+.nav{
+    position:absolute;
+    margin-top: 39px;
+    right: 20px;
+    z-index: 12;
+}
+.nav li:hover > ul{
+    display: block;    
+    z-index: 12;
+}
+.nav2liLink{
+    background-color: teal;
+    width: 90px;
+    color: white;
+    text-decoration: none;
+    padding: 3px 15px ;
+    display: block;
+    z-index: 10;
+}
+.nav2>li{
+    float: left;
+    z-index: 10;
+}
+.nav2 li button:hover{
+    background-color: violet;
+    z-index: 10;
+}
+.navlia{
+    background-color: rgb(49, 2, 255);
+    padding: 10px 15px;
+    user-select: none;
+    color:white;
+    z-index: 10;
+}
+.nav2 li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    z-index: 10;
+}
+.nav2{
+    position:absolute;
+    margin-top: 39px;
+    right: 120px;
+    z-index: 10;
+}
+.nav2 li:hover > ul{
+    display: block;    
+    z-index: 10;
+}
+.liink{
+    text-decoration: none;
+}
+.previous1{
+    position: absolute;
+    left: 0;
+    z-index: 11;
+    padding: 0.1px 0.1px;
+    font-size: 110%;
+    background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: 2px solid #000301;
+    transition-duration: 0.4s;
+}
+.previous2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 11;
+    padding: 0.1px 0.1px;
+    font-size: 110%;
+    background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: 2px solid #000301;
+    transition-duration: 0.4s;
+}
+.next1{
+    position: absolute;
+    right: 0;
+    z-index: 11;
+    padding: 0.1px 0.1px;
+    font-size: 110%;
+    background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: 2px solid #000301;
+    transition-duration: 0.4s;
+}
+.next2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 11;
+    padding: 0.1px 0.1px;
+    font-size: 110%;
+    background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: 2px solid #000301;
+    transition-duration: 0.4s;
+}
+  
+  .previous1:hover {
+    background-color: #000000; 
+    color: white;
+  }
+  .previous2:hover {
+    background-color: #000000; 
+    color: white;
+  }
+  .next1:hover {
+    background-color: #000000; 
+    color: white;
+  }
+  .next2:hover {
+    background-color: #000000; 
+    color: white;
+  }
+  .prueba{
+      text-decoration: none;
+      color: white;
+  }
+  .texto{
+      position: relative;
+      right: 50%;
+      color: white;
+      width: 100%;
+      height: auto;
+  }
