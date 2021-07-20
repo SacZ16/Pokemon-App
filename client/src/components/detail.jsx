@@ -24,19 +24,17 @@ export function Detail(){
             {typeof pokedetail === "object"&& (
                 <div class="cajacontenedora">                    
                     <Bar class="carta_bar2"></Bar>
-                    <div class="cajaname2"></div>
-                    <div class="cajaname">
-                    <h1 class="cajanametexto">{pokedetail[0] &&  <h1 class="cajanametexto">{pokedetail[0].name}</h1>}{pokedetail && <h1 class="cajanametexto">{pokedetail.name}</h1>}</h1>
-                    </div>
-                    <div></div>
+                   
                     <div class="cajafondo"></div>
-                    <h2 class="cajaid">{pokedetail[0]? pokedetail[0].id :pokedetail.id}</h2>
+                    
+                    <h1 class="cajanametexto">{pokedetail[0] &&  <h1 class="cajanametexto">{pokedetail[0].name}</h1>}{pokedetail && <h1 class="cajanametexto">{pokedetail.name}</h1>}</h1>
                     <div class="cajastats">
                     <h3>HP:{pokedetail[0] && <h3>{pokedetail[0].hp}</h3>}{pokedetail && <h3>{pokedetail.hp}</h3>}</h3>
                     <h3>Attack:{pokedetail[0] && <h3>{pokedetail[0].attack}</h3>}{pokedetail && <h3>{pokedetail.attack}</h3>}</h3>
                     <h3>Defense:{pokedetail[0] && <h3>{pokedetail[0].defense}</h3>}{pokedetail && <h3>{pokedetail.defense}</h3>}</h3>
                     <h3>Speed:{pokedetail[0] && <h3>{pokedetail[0].speed}</h3>}{pokedetail && <h3>{pokedetail.speed}</h3>}</h3>
                     </div>
+                    <h2 class="cajaid">ID:{pokedetail[0]? pokedetail[0].id :pokedetail.id}</h2>
                     <div class="cajastats2">
                     <h3>weight:{pokedetail[0] && <h3>{pokedetail[0].weight}</h3>}{pokedetail && <h3>{pokedetail.weight}</h3>}</h3>
                     <h3>height:{pokedetail[0] && <h3>{pokedetail[0].height}</h3>}{pokedetail && <h3>{pokedetail.height}</h3>}</h3>

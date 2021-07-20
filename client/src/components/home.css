@@ -18,14 +18,12 @@
 }
   
 .cajacarta{
-    background-color: rgba(173, 0, 0, 0.5);
-    width: 95%;
+    background-color: #a3cfcdb0;
+    width: 100%;
     position: relative; 
     display: flex;
     height: 100%;
-    border-radius: 10px 10px 10px 10px;
     margin-top: 80px;
-    margin-left: 2.5%;
 }
 .carta{
     position:relative;
@@ -114,7 +112,7 @@ ul,ol{
 .nav{
     position:absolute;
     margin-top: 39px;
-    right: 20px;
+    right: 100px;
     z-index: 12;
 }
 .nav li:hover > ul{
@@ -139,7 +137,7 @@ ul,ol{
     z-index: 10;
 }
 .navlia{
-    background-color: rgb(49, 2, 255);
+    background-color: #00C9C8;
     padding: 10px 15px;
     user-select: none;
     color:white;
@@ -154,7 +152,7 @@ ul,ol{
 .nav2{
     position:absolute;
     margin-top: 39px;
-    right: 120px;
+    right:240px;
     z-index: 10;
 }
 .nav2 li:hover > ul{
@@ -168,12 +166,16 @@ ul,ol{
     position: absolute;
     left: 0;
     z-index: 11;
+    margin-left: 0.5%;
     padding: 0.1px 0.1px;
     font-size: 110%;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0.616);
   color: black;
   border: 2px solid #000301;
     transition-duration: 0.4s;
+}
+.noseve{
+  display: none;
 }
 .previous2{
     position: absolute;
@@ -181,8 +183,9 @@ ul,ol{
     bottom: 0;
     z-index: 11;
     padding: 0.1px 0.1px;
+    margin-left: 0.5%;
     font-size: 110%;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0.616);
   color: black;
   border: 2px solid #000301;
     transition-duration: 0.4s;
@@ -192,8 +195,9 @@ ul,ol{
     right: 0;
     z-index: 11;
     padding: 0.1px 0.1px;
+    margin-right: 0.5%;
     font-size: 110%;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0.616);
   color: black;
   border: 2px solid #000301;
     transition-duration: 0.4s;
@@ -204,8 +208,9 @@ ul,ol{
     bottom: 0;
     z-index: 11;
     padding: 0.1px 0.1px;
+    margin-right: 0.5%;
     font-size: 110%;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0.616);
   color: black;
   border: 2px solid #000301;
     transition-duration: 0.4s;
@@ -232,9 +237,46 @@ ul,ol{
       color: white;
   }
   .texto{
-      position: relative;
-      right: 50%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: rgb(131, 131, 131);
       color: white;
       width: 100%;
-      height: auto;
+      font-size: 60px;
   }
+  .textodefault{
+    background-color: rgb(131, 131, 131);
+      color: white;
+      font-size: 60px;
+  }
+  @media (max-width: 500px) {
+    .nav{
+      margin-top: 120px;
+      right: 60px;
+    }
+    .nav2{
+      margin-top: 120px;
+      right: 200px;
+    }
+    .cajacarta{
+      margin-top: 200px;
+    }
+}
+@media (max-width: 769px) {
+  .nav{
+    margin-top: 120px;
+    right: 60px;
+  }
+  .nav2{
+    margin-top: 120px;
+    right: 200px;
+  }
+  .cajabuscadori{
+      margin-top: 80px;
+      left: 7%;
+  }
+  .cajacarta{
+    margin-top: 160px;
+  }
+}

@@ -4,7 +4,6 @@ const initialState={
     pokes:undefined,
     detail:undefined,
     pokescopia:undefined,
-    pokescopia2:undefined,
     tipos:undefined,
 }
 function reducer(state=initialState,action){
@@ -14,8 +13,7 @@ function reducer(state=initialState,action){
                 ...state,
                 tipos:action.payload.tipos,
                 pokes:action.payload.pokes,
-                pokescopia:action.payload.pokes,
-                pokescopia2:action.payload.pokes,                
+                pokescopia:action.payload.pokes,               
             }
         }
         case SET_DETAIL:{
@@ -48,7 +46,7 @@ function reducer(state=initialState,action){
             if(action.payload === "default"){
                 return{
                     ...state,
-                    pokescopia:[...state.pokescopia2]
+                    pokescopia:[...state.pokes]
                 }
             }
             if(action.payload === "creados"){
@@ -66,7 +64,7 @@ function reducer(state=initialState,action){
             if(action.payload === "A-Z"){
                 return{
                     ...state,
-                    pokescopia:state.pokes.sort((a,b)=>{if(a.name.toLowerCase() > b.name.toLowerCase()) return 1
+                    pokescopia:state.pokescopia.sort((a,b)=>{if(a.name.toLowerCase() > b.name.toLowerCase()) return 1
                     if(a.name.toLowerCase() < b.name.toLowerCase()) return -1
                     return 0})
                 }
@@ -74,7 +72,7 @@ function reducer(state=initialState,action){
             if(action.payload === "Z-A"){
                 return{
                     ...state,
-                    pokescopia:state.pokes.sort((a,b)=>{if(a.name.toLowerCase() < b.name.toLowerCase()) return 1
+                    pokescopia:state.pokescopia.sort((a,b)=>{if(a.name.toLowerCase() < b.name.toLowerCase()) return 1
                     if(a.name.toLowerCase() > b.name.toLowerCase()) return -1
                     return 0})
                 }
@@ -82,7 +80,7 @@ function reducer(state=initialState,action){
             if(action.payload === "fuerzaasc"){
                 return{
                     ...state,
-                    pokescopia:state.pokes.sort((a,b)=>{if(a.attack < b.attack) return 1
+                    pokescopia:state.pokescopia.sort((a,b)=>{if(a.attack < b.attack) return 1
                     if(a.attack > b.attack) return -1
                     return 0})
                 }
@@ -90,7 +88,7 @@ function reducer(state=initialState,action){
             if(action.payload === "default2"){
                 return{
                     ...state,
-                    pokescopia:state.pokes.sort((a,b)=>{if(a.id > b.id) return 1
+                    pokescopia:state.pokescopia.sort((a,b)=>{if(a.id > b.id) return 1
                     if(a.id < b.id) return -1
                     return 0})
                 }
@@ -98,7 +96,7 @@ function reducer(state=initialState,action){
             if(action.payload === "fuerzadesc"){
                 return{
                     ...state,
-                    pokescopia:state.pokes.sort((a,b)=>{if(a.attack > b.attack) return 1
+                    pokescopia:state.pokescopia.sort((a,b)=>{if(a.attack > b.attack) return 1
                     if(a.attack < b.attack) return -1
                     return 0})
                 }

@@ -27,24 +27,32 @@ router.get("/pokemons",async (req,res)=>{
             }
         }
     }
+    if (namee){
+        let pokebuscado= await axios.get('https://pokeapi.co/api/v2/pokemon?limit=1118')
+        let pokebuscado2 = pokebuscado.data.results
+           for (let k=0;k<pokebuscado2.length;k++){
+               if(pokebuscado2[k].name === namee){
+                   let pokebuscado3=await axios.get(pokebuscado2[k].url)
+                    pokemonesbusqueda.push({
+                        name:pokebuscado3.data.name,
+                        id:pokebuscado3.data.id,
+                        hp:pokebuscado3.data.stats[0].base_stat,
+                        attack:pokebuscado3.data.stats[1].base_stat,
+                        defense:pokebuscado3.data.stats[2].base_stat,
+                        speed:pokebuscado3.data.stats[3].base_stat,
+                        imga:pokebuscado3.data.sprites.versions['generation-v']['black-white'].animated.front_default,
+                        imgashiny:pokebuscado3.data.sprites.versions['generation-v']['black-white'].animated.front_shiny,
+                        types:pokebuscado3.data.types.map(types=>types.type.name)
+                    })
+               }
+           }
+           
+        
+
+    }
     for(let i =0;i<pokemonesprimero.length;i++){
         let pokemonessegundo= await axios.get(pokemonesprimero[i].url)
-         if(namee){
-             if(pokemonessegundo.data.name === namee)
-             pokemonesbusqueda.push({
-                 name:pokemonessegundo.data.name,
-                 id:pokemonessegundo.data.id,
-                 hp:pokemonessegundo.data.stats[0].base_stat,
-                 attack:pokemonessegundo.data.stats[1].base_stat,
-                 defense:pokemonessegundo.data.stats[2].base_stat,
-                 speed:pokemonessegundo.data.stats[3].base_stat,
-                 imga:pokemonessegundo.data.sprites.versions['generation-v']['black-white'].animated.front_default,
-                 imgashiny:pokemonessegundo.data.sprites.versions['generation-v']['black-white'].animated.front_shiny,
-                 types:pokemonessegundo.data.types.map(types=>types.type.name)
-             })
-         }else{
-             console.log("no")
-         }
+         
         pokemonesresultado.push({
             name:pokemonessegundo.data.name,
             id:pokemonessegundo.data.id,

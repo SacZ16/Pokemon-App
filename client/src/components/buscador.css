@@ -1,5 +1,13 @@
 .cajabuscadori{
     position: absolute;
-    margin-top: 2px;
-    left: 34%;
+    margin-top: 40px;
+    left: 24%;
+    
+}
+@media (max-width: 769px) {
+    .cajabuscadori{
+        margin-top: 80px;
+        left: 7%;
+    }
+    
 }

@@ -32,24 +32,24 @@ function Home({page}) {
                     <Carta pokesrender={pokesToRender}></Carta>}
                 </div>  
                 <div >
-                    {pokesToRender && !pokesToRender.length && <div class="texto">No se encontraron pokemones, Presiona en DEFAULT para volver</div> }        
+                    {pokesToRender && !pokesToRender.length && <div class="texto">No se encontraron pokemones, Presiona en <button class="textodefault" onClick={()=>{dispatch(filtrarpoke("default"))}}>Default</button> para volver</div> }        
                     <div className='previous1'>
-                         {pokesToRender && pokesToRender.length  && pokesToRender[0].id !== pokemoness[0].id && <NavLink class='prueba' to={`/${parseInt(page) - 1}`}>{'Previous'}</NavLink>}
+                         {pokesToRender && pokesToRender.length  && pokesToRender[0].id !== pokemoness[0].id ? <NavLink class='prueba' to={`/${parseInt(page) - 1}`}>{'Previous'}</NavLink>:<h1 class="noseve">no se ve nada</h1>}
                     </div>
                 </div>
                 <div >
                     <div className='next1'>
-                        {pokesToRender && pokesToRender.length  && pokesToRender[pokesToRender.length - 1].id !== pokemoness[pokemoness.length - 1].id && <NavLink class='prueba' to={`/${parseInt(page) + 1}`}>{'Next'}</NavLink>}
+                        {pokesToRender && pokesToRender.length  && pokesToRender[pokesToRender.length - 1].id !== pokemoness[pokemoness.length - 1].id ? <NavLink class='prueba' to={`/${parseInt(page) + 1}`}>{'Next'}</NavLink>:<h1 class="noseve">no se ve nada</h1>}
                     </div>
                 </div>
                 <div >
                     <div className='previous2'>                
-                        {pokesToRender && pokesToRender.length  && pokesToRender[0].id !== pokemoness[0].id && <NavLink class='prueba' to={`/${parseInt(page) - 1}`}>{'Previous'}</NavLink>}
+                        {pokesToRender && pokesToRender.length  && pokesToRender[0].id !== pokemoness[0].id ? <NavLink class='prueba' to={`/${parseInt(page) - 1}`}>{'Previous'}</NavLink>:<h1 class="noseve">no se ve nada</h1>}
                     </div>
                 </div>
                 <div >
                     <div className='next2'>
-                        {pokesToRender && pokesToRender.length  && pokesToRender[pokesToRender.length - 1].id !== pokemoness[pokemoness.length - 1].id && <NavLink class='prueba' to={`/${parseInt(page) + 1}`}>{'Next'}</NavLink>}
+                        {pokesToRender && pokesToRender.length  && pokesToRender[pokesToRender.length - 1].id !== pokemoness[pokemoness.length - 1].id ? <NavLink class='prueba' to={`/${parseInt(page) + 1}`}>{'Next'}</NavLink>:<h1 class="noseve">no se ve nada</h1>}
                     </div>
                 </div>
             </div>
@@ -57,12 +57,12 @@ function Home({page}) {
                 <ul class="nav">
                     <li><a class="navlia"> FILTRO</a>
                         <ul>
-                            <li><button button onClick={()=>{dispatch(filtrarpoke("default"))}}>default</button></li>
-                            <li><button button onClick={()=>{dispatch(filtrarpoke("creados"))}}>creados</button></li>
-                            <li><button button onClick={()=>{dispatch(filtrarpoke("oficiales"))}}>oficiales</button></li>
+                            <li><button  onClick={()=>{dispatch(filtrarpoke("default"))}}>default</button></li>
+                            <li><button onClick={()=>{dispatch(filtrarpoke("creados"))}}>creados</button></li>
+                            <li><button  onClick={()=>{dispatch(filtrarpoke("oficiales"))}}>oficiales</button></li>
                             {
                             tipos && tipos.map(ti=>{
-                            return <li><button onClick={()=>{dispatch(filtrarpoke(ti[0].name))}}>{ti[0].name}</button></li>
+                            return <li><Link to={'/1'}><button onClick={()=>{dispatch(filtrarpoke(ti[0].name))}}>{ti[0].name}</button></Link></li>
                             })
                             }
                         </ul>

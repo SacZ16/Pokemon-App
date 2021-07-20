@@ -85,7 +85,7 @@ export function Form(){
                                         </div>
                                     </div>
                                     <div class="selec">                    
-                                        <select required  name="t1" id="" onChange={handleInputChange}>
+                                        <select required  class="clasetipo" name="t1" id="" onChange={handleInputChange}>
                                             <option value={"NORMAL"} >TYPE1</option>
                                             <option value={"normal"} >NORMAL</option>
                                             <option value={"fighting"} >FIGHTING</option>
@@ -108,7 +108,7 @@ export function Form(){
                                             <option value={"unknown"} >UNKNOWN</option>
                                             <option value={"shadow"} >SHADOW</option>
                                         </select> 
-                                        <select required  name="t2" id="" onChange={handleInputChange}>
+                                        <select required class="clasetipo" name="t2" id="" onChange={handleInputChange}>
                                             <option value={"NORMAL"} >TYPE2</option>
                                             <option value={"normal"} >NORMAL</option>
                                             <option value={"fighting"} >FIGHTING</option>
