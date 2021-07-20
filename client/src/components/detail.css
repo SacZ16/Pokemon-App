@@ -633,8 +633,9 @@
 .cajacontenedora{
     position: relative;
 width: 100%;
-height: 100%;
+height: 650px;
 background-color: rgba(255, 140, 0, 0);
+overflow: hidden;
 }
 .cajanametexto{
     position: absolute;
@@ -646,7 +647,7 @@ background-color: rgba(255, 140, 0, 0);
 .cajafondo{
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 500px;
     margin-top: 110px;
     background-color: #a3cfcdb0;
 }
@@ -667,7 +668,7 @@ background-color: rgba(255, 140, 0, 0);
     top: 200px;
     left: 50%;
     z-index: 12;
-    width: 50%;
+    width: 45%;
     background-color: rgba(238, 235, 235, 0.287);
 }
 .cajaid{
@@ -684,295 +685,369 @@ background-color: rgba(255, 140, 0, 0);
     top: 300px;
     left: 50%;
     z-index: 12;
-    width: 50%;
+    width: 45%;
     background-color: rgba(238, 235, 235, 0.287);
 }
 @media(max-width: 1255px) {
-    
+    .cajaid{
+        top: 590px;
+        left: -2%;
+    }
     .cajastats{
         top: 660px;
-        left: 25%;
+        width: 100%;
+        height: auto;
+        left: 0;
     }
     .cajastats2{
         top: 740px;
-        left: 25%;
+        width: 100%;
+        height: auto;
+        left: 0;
     }
-    .cajaimagen2NORMAL{left: 20%;bottom: 480px;}
-.cajaimagen2FIGHTING{left: 20%;bottom: 480px;}
-.cajaimagen2FLYING{left: 20%;bottom: 480px;} 
-.cajaimagen2POISON {left: 20%;bottom: 480px;}
-.cajaimagen2GROUND {left: 20%;bottom: 480px;}
-.cajaimagen2ROCK {left: 20%;bottom: 480px;}
-.cajaimagen2BUG {left: 20%;bottom: 480px;}
-.cajaimagen2GHOST {left: 20%;bottom: 480px;}
-.cajaimagen2FIRE {left: 20%;bottom: 480px;}
-.cajaimagen2WATER {left: 20%;bottom: 480px;}
-.cajaimagen2STEEL {left: 20%;bottom: 480px;}
-.cajaimagen2GRASS {left: 20%;bottom: 480px;}
-.cajaimagen2ELECTRIC {left: 20%;bottom: 480px;}
-.cajaimagen2PSYCHIC {left: 20%;bottom: 480px;}
-.cajaimagen2ICE {left: 20%;bottom: 480px;}
-.cajaimagen2DRAGON {left: 20%;bottom: 480px;}
-.cajaimagen2FAIRY {    left: 20%;bottom: 480px;}
-.cajaimagen2CREADO {    left: 20%;bottom: 480px;}
-.cajaimagenNORMAL{left: 20%;bottom: 50px;}
-.cajaimagenFIGHTING{left: 20%;bottom: 50px;}
-.cajaimagenFLYING{left: 20%;bottom: 50px;} 
-.cajaimagenPOISON {left: 20%;bottom: 50px;}
-.cajaimagenGROUND {left: 20%;bottom: 50px;}
-.cajaimagenROCK {left: 20%;bottom: 50px;}
-.cajaimagenBUG {left: 20%;bottom: 50px;}
-.cajaimagenGHOST {left: 20%;bottom: 50px;}
-.cajaimagenFIRE {left: 20%;bottom: 50px;}
-.cajaimagenWATER {left: 20%;bottom: 50px;}
-.cajaimagenSTEEL {left: 20%;bottom: 50px;}
-.cajaimagenGRASS {left: 20%;bottom: 50px;}
-.cajaimagenELECTRIC {left: 20%;bottom: 50px;}
-.cajaimagenPSYCHIC {left: 20%;bottom: 50px;}
-.cajaimagenICE {left: 20%;bottom: 50px;}
-.cajaimagenDRAGON {left: 20%;bottom: 50px;}
-.cajaimagenFAIRY {    left: 20%;bottom: 50px;}
-.cajaimagenCREADO {    left: 20%;bottom: 50px;}
+    .cajacontenedora{
+        overflow: none;
+        width: 100%;
+        height: 100%;
+    }
+    .cajafondo{
+        height: 100%;
+    }
+    .cajanametexto{
+        left: 43%;
+    }
+    .cajaimagen2NORMAL{left: 25%;bottom: 480px;}
+.cajaimagen2FIGHTING{left: 25%;bottom: 480px;}
+.cajaimagen2FLYING{left: 25%;bottom: 480px;} 
+.cajaimagen2POISON {left: 25%;bottom: 480px;}
+.cajaimagen2GROUND {left: 25%;bottom: 480px;}
+.cajaimagen2ROCK {left: 25%;bottom: 480px;}
+.cajaimagen2BUG {left: 25%;bottom: 480px;}
+.cajaimagen2GHOST {left: 25%;bottom: 480px;}
+.cajaimagen2FIRE {left: 25%;bottom: 480px;}
+.cajaimagen2WATER {left: 25%;bottom: 480px;}
+.cajaimagen2STEEL {left: 25%;bottom: 480px;}
+.cajaimagen2GRASS {left: 25%;bottom: 480px;}
+.cajaimagen2ELECTRIC {left: 25%;bottom: 480px;}
+.cajaimagen2PSYCHIC {left: 25%;bottom: 480px;}
+.cajaimagen2ICE {left: 25%;bottom: 480px;}
+.cajaimagen2DRAGON {left: 25%;bottom: 480px;}
+.cajaimagen2FAIRY {    left: 25%;bottom: 480px;}
+.cajaimagen2CREADO {    left: 25%;bottom: 480px;}
+.cajaimagenNORMAL{left: 25%;bottom: 50px;}
+.cajaimagenFIGHTING{left: 25%;bottom: 50px;}
+.cajaimagenFLYING{left: 25%;bottom: 50px;} 
+.cajaimagenPOISON {left: 25%;bottom: 50px;}
+.cajaimagenGROUND {left: 25%;bottom: 50px;}
+.cajaimagenROCK {left: 25%;bottom: 50px;}
+.cajaimagenBUG {left: 25%;bottom: 50px;}
+.cajaimagenGHOST {left: 25%;bottom: 50px;}
+.cajaimagenFIRE {left: 25%;bottom: 50px;}
+.cajaimagenWATER {left: 25%;bottom: 50px;}
+.cajaimagenSTEEL {left: 25%;bottom: 50px;}
+.cajaimagenGRASS {left: 25%;bottom: 50px;}
+.cajaimagenELECTRIC {left: 25%;bottom: 50px;}
+.cajaimagenPSYCHIC {left: 25%;bottom: 50px;}
+.cajaimagenICE {left: 25%;bottom: 50px;}
+.cajaimagenDRAGON {left: 25%;bottom: 50px;}
+.cajaimagenFAIRY {    left: 25%;bottom: 50px;}
+.cajaimagenCREADO {    left: 25%;bottom: 50px;}
 }
 @media(max-width: 773px) {
     
     .cajastats{
         top: 660px;
-        left: 25%;
+        width: 100%;
+        height: auto;
+        left: 0;
     }
     .cajastats2{
         top: 740px;
-        left: 25%;
+        width: 100%;
+        height: auto;
+        left: 0;
     }
-    .cajaimagen2NORMAL{left: 0;bottom: 615px;}
-.cajaimagen2FIGHTING{left: 0;bottom: 615px;}
-.cajaimagen2FLYING{left: 0;bottom: 615px;} 
-.cajaimagen2POISON {left: 0;bottom: 615px;}
-.cajaimagen2GROUND {left: 0;bottom: 615px;}
-.cajaimagen2ROCK {left: 0;bottom: 615px;}
-.cajaimagen2BUG {left: 0;bottom: 615px;}
-.cajaimagen2GHOST {left: 0;bottom: 615px;}
-.cajaimagen2FIRE {left: 0;bottom: 615px;}
-.cajaimagen2WATER {left: 0;bottom: 615px;}
-.cajaimagen2STEEL {left: 0;bottom: 615px;}
-.cajaimagen2GRASS {left: 0;bottom: 615px;}
-.cajaimagen2ELECTRIC {left: 0;bottom: 615px;}
-.cajaimagen2PSYCHIC {left: 0;bottom: 615px;}
-.cajaimagen2ICE {left: 0;bottom: 615px;}
-.cajaimagen2DRAGON {left: 0;bottom: 615px;}
-.cajaimagen2FAIRY {    left: 0;bottom: 615px;}
-.cajaimagen2CREADO {    left: 0;bottom: 615px;}
-.cajaimagenNORMAL{left: 0;bottom: 185px;}
-.cajaimagenFIGHTING{left: 0;bottom: 185px;}
-.cajaimagenFLYING{left: 0;bottom: 185px;} 
-.cajaimagenPOISON {left: 0;bottom: 185px;}
-.cajaimagenGROUND {left: 0;bottom: 185px;}
-.cajaimagenROCK {left: 0;bottom: 185px;}
-.cajaimagenBUG {left: 0;bottom: 185px;}
-.cajaimagenGHOST {left: 0;bottom: 185px;}
-.cajaimagenFIRE {left: 0;bottom: 185px;}
-.cajaimagenWATER {left: 0;bottom: 185px;}
-.cajaimagenSTEEL {left: 0;bottom: 185px;}
-.cajaimagenGRASS {left: 0;bottom: 185px;}
-.cajaimagenELECTRIC {left: 0;bottom: 185px;}
-.cajaimagenPSYCHIC {left: 0;bottom: 185px;}
-.cajaimagenICE {left: 0;bottom: 185px;}
-.cajaimagenDRAGON {left: 0;bottom: 185px;}
-.cajaimagenFAIRY {    left: 0;bottom: 185px;}
-.cajaimagenCREADO {    left: 0;bottom: 185px;}
+    .cajaimagen2NORMAL{left: 15%;}
+.cajaimagen2FIGHTING{left: 15%;}
+.cajaimagen2FLYING{left: 15%;} 
+.cajaimagen2POISON {left: 15%;}
+.cajaimagen2GROUND {left: 15%;}
+.cajaimagen2ROCK {left: 15%;}
+.cajaimagen2BUG {left: 15%;}
+.cajaimagen2GHOST {left: 15%;}
+.cajaimagen2FIRE {left: 15%;}
+.cajaimagen2WATER {left: 15%;}
+.cajaimagen2STEEL {left: 15%;}
+.cajaimagen2GRASS {left: 15%;}
+.cajaimagen2ELECTRIC {left: 15%;}
+.cajaimagen2PSYCHIC {left: 15%;}
+.cajaimagen2ICE {left: 15%;}
+.cajaimagen2DRAGON {left: 15%;}
+.cajaimagen2FAIRY {    left: 15%;}
+.cajaimagen2CREADO {    left: 15%;}
+.cajaimagenNORMAL{left: 15%;}
+.cajaimagenFIGHTING{left: 15%;}
+.cajaimagenFLYING{left: 15%;} 
+.cajaimagenPOISON {left: 15%;}
+.cajaimagenGROUND {left: 15%;}
+.cajaimagenROCK {left: 15%;}
+.cajaimagenBUG {left: 15%;}
+.cajaimagenGHOST {left: 15%;}
+.cajaimagenFIRE {left: 15%;}
+.cajaimagenWATER {left: 15%;}
+.cajaimagenSTEEL {left: 15%;}
+.cajaimagenGRASS {left: 15%;}
+.cajaimagenELECTRIC {left: 15%;}
+.cajaimagenPSYCHIC {left: 15%;}
+.cajaimagenICE {left: 15%;}
+.cajaimagenDRAGON {left: 15%;}
+.cajaimagenFAIRY {    left: 15%;}
+.cajaimagenCREADO {    left: 15%;}
+.cajaid{
+    left: -5%;
+}
+.cajanametexto{
+    left:40%;
+}
 }
 @media(max-width: 589px) {
-    
+    .cajacontenedora{
+        height: 900px;
+    }
     .cajastats{
         top: 500px;
-        left: 25%;
+        width: 100%;
+        height: auto;
+        left: 0;
     }
     .cajastats2{
         top: 570px;
-        left: 25%;
+        width: 100%;
+        height: auto;
+        left: 0;
     }
     .cajaimagen2NORMAL{
-   bottom:519px;     max-width: 230px;
+   bottom:279px;
+    left: 23%;     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2FIGHTING{bottom:519px;
+.cajaimagen2FIGHTING{bottom:279px;
+    left: 23%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2FLYING{bottom:519px;
+.cajaimagen2FLYING{bottom:279px;
+    left: 23%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;} 
-.cajaimagen2POISON {bottom:519px;
+.cajaimagen2POISON {bottom:279px;
+    left: 23%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2GROUND {bottom:519px;
+.cajaimagen2GROUND {bottom:279px;
+    left: 23%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2ROCK {bottom:519px;
+.cajaimagen2ROCK {bottom:279px;
+    left: 23%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2BUG {bottom:519px;
+.cajaimagen2BUG {bottom:279px;
+    left: 23%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2GHOST {bottom:519px;
+.cajaimagen2GHOST {bottom:279px;
+    left: 23%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2FIRE {bottom:519px;
+.cajaimagen2FIRE {bottom:279px;
+    left: 23%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2WATER {bottom:519px;
+.cajaimagen2WATER {bottom:279px;
+    left: 23%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2STEEL {bottom:519px;
+.cajaimagen2STEEL {bottom:279px;
+    left: 23%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2GRASS {bottom:519px;
+.cajaimagen2GRASS {bottom:279px;
+    left: 23%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2ELECTRIC {bottom:519px;
+.cajaimagen2ELECTRIC {bottom:279px;
+    left: 23%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2PSYCHIC {bottom:519px;
+.cajaimagen2PSYCHIC {bottom:279px;
+    left: 23%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2ICE {bottom:519px;
+.cajaimagen2ICE {bottom:279px;
+    left: 23%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2DRAGON {bottom:519px;
+.cajaimagen2DRAGON {bottom:279px;
+    left: 23%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2FAIRY {    bottom:519px;
+.cajaimagen2FAIRY {    bottom:279px;
+    left: 23%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2CREADO {    bottom:519px;
+.cajaimagen2CREADO {    bottom:279px;
+    left: 23%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenNORMAL{top:-289px;
+.cajaimagenNORMAL{top:-49px;
+    left: 23%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenFIGHTING{top:-289px;
+.cajaimagenFIGHTING{top:-49px;
+    left: 23%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenFLYING{top:-289px;
+.cajaimagenFLYING{top:-49px;
+    left: 23%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;} 
-.cajaimagenPOISON {top:-289px;
+.cajaimagenPOISON {top:-49px;
+    left: 23%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenGROUND {top:-289px;
+.cajaimagenGROUND {top:-49px;
+    left: 23%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenROCK {top:-289px;
+.cajaimagenROCK {top:-49px;
+    left: 23%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenBUG {top:-289px;
+.cajaimagenBUG {top:-49px;
+    left: 23%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenGHOST {top:-289px;
+.cajaimagenGHOST {top:-49px;
+    left: 23%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenFIRE {top:-289px;
+.cajaimagenFIRE {top:-49px;
+    left: 23%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenWATER {top:-289px;
+.cajaimagenWATER {top:-49px;
+    left: 23%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenSTEEL {top:-289px;
+.cajaimagenSTEEL {top:-49px;
+    left: 23%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenGRASS {top:-289px;
+.cajaimagenGRASS {top:-49px;
+    left: 23%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenELECTRIC {top:-289px;
+.cajaimagenELECTRIC {top:-49px;
+    left: 23%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenPSYCHIC {top:-289px;
+.cajaimagenPSYCHIC {top:-49px;
+    left: 23%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenICE {top:-289px;
+.cajaimagenICE {top:-49px;
+    left: 23%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenDRAGON {top:-289px;
+.cajaimagenDRAGON {top:-49px;
+    left: 23%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenFAIRY {    top:-289px;
+.cajaimagenFAIRY {    top:-49px;
+    left: 23%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenCREADO {    top:-289px;
+.cajaimagenCREADO {    top:-49px;
+    left: 23%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
     .cajanametexto{
         font-size: 30px;
+        margin-top: 35px;
+    }
+    .cajaid{
+        margin-top: 65px;
     }
 }
 .carta_bar2{
@@ -980,192 +1055,230 @@ background-color: rgba(255, 140, 0, 0);
 }
 @media(max-width: 375px) {
     .cajaid{
-        left: -60px;
+        left: -25px;
+        margin-top: 76px;
     }
     .cajastats{
-        top: 530px;
-        left: 25%;
+        top: 530px;        
     }
     .cajastats2{
         top: 570px;
-        left: 25%;
+    }
+    .cajanametexto{
+        left: 35%;
     }
     .cajaimagen2NORMAL{
-   bottom:320px;     max-width: 230px;
+   bottom:270px;
+    left: 7%;     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2FIGHTING{bottom:320px;
+.cajaimagen2FIGHTING{bottom:270px;
+    left: 7%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2FLYING{bottom:320px;
+.cajaimagen2FLYING{bottom:270px;
+    left: 7%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;} 
-.cajaimagen2POISON {bottom:320px;
+.cajaimagen2POISON {bottom:270px;
+    left: 7%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2GROUND {bottom:320px;
+.cajaimagen2GROUND {bottom:270px;
+    left: 7%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2ROCK {bottom:320px;
+.cajaimagen2ROCK {bottom:270px;
+    left: 7%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2BUG {bottom:320px;
+.cajaimagen2BUG {bottom:270px;
+    left: 7%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2GHOST {bottom:320px;
+.cajaimagen2GHOST {bottom:270px;
+    left: 7%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2FIRE {bottom:320px;
+.cajaimagen2FIRE {bottom:270px;
+    left: 7%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2WATER {bottom:320px;
+.cajaimagen2WATER {bottom:270px;
+    left: 7%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2STEEL {bottom:320px;
+.cajaimagen2STEEL {bottom:270px;
+    left: 7%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2GRASS {bottom:550px;
+.cajaimagen2GRASS {bottom:270px;
+    left: 7%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2ELECTRIC {bottom:320px;
+.cajaimagen2ELECTRIC {bottom:270px;
+    left: 7%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2PSYCHIC {bottom:320px;
+.cajaimagen2PSYCHIC {bottom:270px;
+    left: 7%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2ICE {bottom:320px;
+.cajaimagen2ICE {bottom:270px;
+    left: 7%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2DRAGON {bottom:320px;
+.cajaimagen2DRAGON {bottom:270px;
+    left: 7%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2FAIRY {    bottom:320px;
+.cajaimagen2FAIRY {    bottom:270px;
+    left: 7%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagen2CREADO {    bottom:320px;
+.cajaimagen2CREADO {    bottom:270px;
+    left: 7%;
     max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenNORMAL{top:-389px;
+.cajaimagenNORMAL{top:-39px;
+    left: 7%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenFIGHTING{top:-389px;
+.cajaimagenFIGHTING{top:-39px;
+    left: 7%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenFLYING{top:-389px;
+.cajaimagenFLYING{top:-39px;
+    left: 7%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;} 
-.cajaimagenPOISON {top:-389px;
+.cajaimagenPOISON {top:-39px;
+    left: 7%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenGROUND {top:-389px;
+.cajaimagenGROUND {top:-39px;
+    left: 7%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenROCK {top:-389px;
+.cajaimagenROCK {top:-39px;
+    left: 7%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenBUG {top:-389px;
+.cajaimagenBUG {top:-39px;
+    left: 7%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenGHOST {top:-389px;
+.cajaimagenGHOST {top:-39px;
+    left: 7%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenFIRE {top:-389px;
+.cajaimagenFIRE {top:-39px;
+    left: 7%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenWATER {top:-389px;
+.cajaimagenWATER {top:-39px;
+    left: 7%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenSTEEL {top:-389px;
+.cajaimagenSTEEL {top:-39px;
+    left: 7%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenGRASS {top:-319px;
+.cajaimagenGRASS {top:-39px;
+    left: 7%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenELECTRIC {top:-389px;
+.cajaimagenELECTRIC {top:-39px;
+    left: 7%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenPSYCHIC {top:-389px;
+.cajaimagenPSYCHIC {top:-39px;
+    left: 7%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenICE {top:-389px;
+.cajaimagenICE {top:-39px;
+    left: 7%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenDRAGON {top:-389px;
+.cajaimagenDRAGON {top:-39px;
+    left: 7%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenFAIRY {    top:-389px;
+.cajaimagenFAIRY {    top:-39px;
+    left: 7%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
     min-height: 230px;}
-.cajaimagenCREADO {    top:-389px;
+.cajaimagenCREADO {    top:-39px;
+    left: 7%;
      max-width: 230px;
     max-height: 230px;
     min-width: 230px;
