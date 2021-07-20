@@ -1,5 +1,6 @@
 .link{
     text-decoration: none;
+    box-shadow: 5px 5px 5px #222222b7;
 }
 .cardscotainer{
     width: 100%;
@@ -7,7 +8,7 @@
     display: flex;
     flex-flow: row wrap;
 	justify-content: center;
-    align-items: center;	
+    align-items: center;	   
 }
 .cardcontainer{
     width: 10rem;
@@ -635,11 +636,15 @@ overflow: hidden;
 .cartaimagen {
     width: 70%;
     margin: 0.8rem; 
+    -webkit-filter: drop-shadow(5px 5px 5px #222222);
+  filter: drop-shadow(5px 5px 5px #222222);
     z-index: 2;   
 }
 .cartaimagen2 {
     width: 70%;
     opacity: 0;
+    -webkit-filter: drop-shadow(2px 2px 2px #ffffff);
+  filter: drop-shadow(2px 2px 2px #ffffff);
     margin: 0.8rem;   
     z-index: 2; 
 }
